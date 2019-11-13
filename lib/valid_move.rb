@@ -11,7 +11,7 @@ end
       false
     elsif
       board[index] == "X" || board[index] == "O"
-      false
+      true
     else
       nil
     end
